@@ -194,8 +194,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# Other
-*.css
-*.css.map
-
 # End of https://www.gitignore.io/api/osx,node,code,linux,grunt,macos,dropbox,windows
