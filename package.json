@@ -1,0 +1,16 @@
+{
+  "name": "{{PKG_REPO}}",
+  "description": "{{PKG_DESC}}",
+  "version": "{{PKG_VERS}}",
+  "maintainers": [
+    {
+      "name": "{{PKG_AUTHOR}}",
+      "email": "{{PKG_USEREMAIL}}",
+      "web": "{{PKG_USERURI}}"
+    }
+  ],
+  "bugs": {
+    "web": "https://github.com/{{PKG_USERNAME}}/{{PKG_REPO}}/issues"
+  },
+  "license": "{{PKG_LICENSE_SPDX}}"
+}
