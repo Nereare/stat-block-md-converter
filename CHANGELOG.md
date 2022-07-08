@@ -1,4 +1,4 @@
-# [{{PKG_NAME}}](https://github.com/{{PKG_USERNAME}}/{{PKG_REPO}}) Changelog
+# [Stat Block Markdown Converter](https://github.com/Nereare/stat-block-md-converter) Changelog
 
 All notable changes to this project will be documented in this file.
 
@@ -7,9 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - 2022-07-08
+
 ### Added
 - Code of Conduct from [Contributor Covenant](https://www.contributor-covenant.org/).
-- [{{PKG_LICENSE_NAME}}](LICENSE.md).
+- [Do What The F*ck You Want To Public License](LICENSE.md).
 - Git metafiles (`.gitignore` and `.gitattributes`).
 - GitHub templates:
   - Issues;
@@ -18,4 +20,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Pull request.
 - ReadMe file.
 - Changelog file.
-- ...
+- App `HTML`, style and function (`Javascript`) files.
+
+<!--
+[Unreleased]: https://github.com/Nereare/stat-block-md-converter/compare/v1.x.0...HEAD
+[1.0.0]: https://github.com/Nereare/stat-block-md-converter/compare/v1.1.0...v1.x.0
+-->
+[1.1.0]: https://github.com/Nereare/stat-block-md-converter/releases/tag/v1.1.0

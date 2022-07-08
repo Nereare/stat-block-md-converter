@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title class="app name"></title>
+
+    <!-- FAVICON -->
+
+    <link href="node_modules/@mdi/font/css/materialdesignicons.min.css" rel="stylesheet" type="text/css">
+    <link href="node_modules/typeface-montserrat/index.css" rel="stylesheet" type="text/css">
+    <link href="node_modules/typeface-roboto-mono/index.css" rel="stylesheet" type="text/css">
+    <link href="node_modules/normalize.css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/clipboard/dist/clipboard.min.js"></script>
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+
+    <nav class="navbar is-primary has-shadow" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href=".">
+          <span class="icon-text">
+            <span class="icon">
+              <i class="mdi mdi-language-markdown mdi-24px"></i>
+            </span>
+            <span class="app shortname"></span>
+          </span>
+        </a>
+      </div>
+    </nav>
+
+    <section class="section">
+      <div class="container">
+        <div class="box">
+
+          <div class="field">
+            <div class="control">
+              <button class="button is-fullwidth" id="clear">
+                <span class="icon-text">
+                <span class="icon">
+                  <i class="mdi mdi-nuke"></i>
+                </span>
+                <span>Empty</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="field">
+            <div class="control">
+              <textarea class="textarea has-fixed-size" id="input" rows="8" placeholder="Paste 5e.tools' stat block here..."></textarea>
+            </div>
+          </div>
+
+          <div class="columns">
+            <div class="column">
+              <div class="field">
+                <input class="is-checkradio" id="to-h4" type="checkbox" checked>
+                <label for="to-h4">
+                  <span class="icon-text">
+                    <span class="icon">
+                      <i class="mdi mdi-format-header-4"></i>
+                    </span>
+                    <span>Convert header to <code>h4</code></span>
+                  </span>
+                </label>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="field">
+                <input class="is-checkradio" id="wide" type="checkbox">
+                <label for="wide">
+                  <span class="icon-text">
+                    <span class="icon">
+                      <i class="mdi mdi-arrow-expand-horizontal"></i>
+                    </span>
+                    <span>Make block wide</span>
+                  </span>
+                </label>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="field">
+                <input class="is-checkradio" id="frame" type="checkbox" checked>
+                <label for="frame">
+                  <span class="icon-text">
+                    <span class="icon">
+                      <i class="mdi mdi-image-filter-frames"></i>
+                    </span>
+                    <span>Frame block</span>
+                  </span>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="divider">
+            <div>
+              <span class="icon">
+                <i class="mdi mdi-arrow-down-bold-circle mdi-24px"></i>
+              </span>
+            </div>
+          </div>
+
+          <div class="field">
+            <div class="control">
+              <textarea class="textarea has-fixed-size" id="output" rows="8" placeholder="Output" readonly></textarea>
+            </div>
+          </div>
+
+          <div class="field">
+            <div class="control">
+              <button class="button is-fullwidth is-info copybtn" data-clipboard-target="#output">
+                <span class="icon-text">
+                <span class="icon">
+                  <i class="mdi mdi-content-copy"></i>
+                </span>
+                <span>Copy Result</span>
+              </span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong class="app name"></strong>
+          v<code class="app version"></code>
+          &copy;
+          <a class="app author" href=""></a>
+          <span class="app year"></span>.
+        </p>
+          <a class="app repo" href="">The project</a>
+          is licensed under a
+          <a class="app license" href=""></a>.
+        </p>
+      </div>
+    </footer>
+
+  </body>
+</html>

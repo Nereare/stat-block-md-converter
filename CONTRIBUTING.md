@@ -15,7 +15,9 @@ Before sending your pull requests, make sure you followed this list.
 2. Read the [Code of Conduct](CODE-OF-CONDUCT.md).
 3. Increase the version numbers to the new version that this Pull Request would
    represent in the files below:
-{{PKG_VERS_FILES}}
+    - Any example files
+    - [Package JSON file](package.json)
+    - [The main script file](main.js)
     - **Note:** the versioning scheme we use is [SemVer](http://semver.org/)!
 4. You may merge the Pull Request in once you have the approval of the project
    owner.

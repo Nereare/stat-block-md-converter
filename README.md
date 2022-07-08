@@ -1,18 +1,29 @@
-# {{PKG_NAME}}
+# Stat Block Markdown Converter
 
-[![GitHub package.json version](https://img.shields.io/github/package-json/v/{{PKG_USERNAME}}/{{PKG_REPO}})](https://github.com/{{PKG_USERNAME}}/{{PKG_REPO}})
-[![License](https://img.shields.io/github/license/{{PKG_USERNAME}}/{{PKG_REPO}}.svg)](LICENSE.md)
+[![GitHub package.json version](https://img.shields.io/github/package-json/v/Nereare/stat-block-md-converter)](https://github.com/Nereare/stat-block-md-converter)
+[![License](https://img.shields.io/github/license/Nereare/stat-block-md-converter.svg)](LICENSE.md)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE-OF-CONDUCT.md)
 
-{{PKG_DESCRIPTION}}
+Markdown converter from 5e.tools homebrew tools to Homebrewery v3. :game_die:
 
 ## Installing
 
-<!--
-TODO Set installation instructions
-BODY If there is some installation method, define it on the [README file](README.md).
--->
-1. Foo.
+0. Make sure you have the executable dependencies first:
+    1. [Yarn](https://yarnpkg.com/); e
+    2. [Sass](https://sass-lang.com/);
+1. Clone the repository:
+    1. Navigate to the folder where you want to clone the repo; and
+    2. Execute: `git clone https://github.com/Nereare/stat-block-md-converter.git`;
+2. Go to the repo:
+    1. Windows' `cmd`: `Set-Location -Path Path\To\Repo`;
+    2. Unix or Windows `PowerShell`: `cd path/to/repo`;
+3. Install the repo dependencies: `yarn` or `yarn install`;
+4. Compile the style CSS:
+    1. Execute `sass style.scss:style.css --style=compressed`;
+         - While the parameter `--style=compressed` isn't **needed**, it helps to spare a couple bytes of filespace;
+5. Copy all the files to your server (local or remote);
+    1. The dotfolders and dotfiles may be ignored;
+6. Ready, you can use the tool now! :tada:
 
 ## Contributing
 
@@ -35,8 +46,8 @@ By participating in this project you agree to abide by its terms.
 See the [Change Log](CHANGELOG.md) for further history.
 
 This project uses [SemVer](http://semver.org/) for versioning. For the versions
-available, see the [tags on this repository](https://github.com/{{PKG_USERNAME}}/{{PKG_REPO}}/tags).
+available, see the [tags on this repository](https://github.com/Nereare/stat-block-md-converter/tags).
 
 ## License
 
-This project is available under the [{{PKG_LICENSE_NAME}}]({{PKG_LICENSE_URI}}).
+This project is available under the [Do What The F*ck You Want To Public License](http://www.wtfpl.net/).

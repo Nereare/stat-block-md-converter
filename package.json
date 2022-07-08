@@ -1,16 +1,31 @@
 {
-  "name": "{{PKG_REPO}}",
-  "description": "{{PKG_DESC}}",
-  "version": "{{PKG_VERS}}",
+  "name": "stat-block-md-converter",
+  "description": "Markdown converter from 5e.tools homebrew tools to Homebrewery v3",
+  "version": "1.1.0",
   "maintainers": [
     {
-      "name": "{{PKG_AUTHOR}}",
-      "email": "{{PKG_USEREMAIL}}",
-      "web": "{{PKG_USERURI}}"
+      "name": "Igor Padoim",
+      "email": "igorpadoim@gmail.com",
+      "web": "https://nereare.com/"
     }
   ],
   "bugs": {
-    "web": "https://github.com/{{PKG_USERNAME}}/{{PKG_REPO}}/issues"
+    "web": "https://github.com/Nereare/stat-block-md-converter/issues"
   },
-  "license": "{{PKG_LICENSE_SPDX}}"
+  "license": "WTFPL",
+  "main": "index.html",
+  "repository": "https://github.com/Nereare/stat-block-md-converter.git",
+  "author": "Igor Padoim <igorpadoim@gmail.com>",
+  "private": false,
+  "dependencies": {
+    "@creativebulma/bulma-divider": "^1.1.0",
+    "@mdi/font": "^6.9.96",
+    "bulma": "^0.9.4",
+    "bulma-checkradio": "^2.1.3",
+    "clipboard": "^2.0.11",
+    "jquery": "^3.6.0",
+    "normalize.css": "^8.0.1",
+    "typeface-montserrat": "^1.1.13",
+    "typeface-roboto-mono": "^1.1.13"
+  }
 }
